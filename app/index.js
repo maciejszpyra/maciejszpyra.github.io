@@ -4,8 +4,9 @@
         $hero = $(".hero");
 
     function init() {
-        // TweenLite.set($slides.not($activeSlide), {autoAlpha: 0});
-        TweenLite.set($slides.not($activeSlide), {opacity: 0.5})
+        TweenLite.set($('.slide').not('.active'), {autoAlpha: 0});
+        // console.log();
+        // TweenLite.set($slides.not($activeSlide), {opacity: 0.5})
     }
 
     function nextSlide() {

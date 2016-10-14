@@ -5,9 +5,19 @@
     left: 0;
     right: 0;
 }
+
 .slide {
-    background-color: aliceblue;
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.slide01 {
+    background: url('https://mave.me/img/projects/full_placeholder.png');
+}
+.slide02{
+    background: url('http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');
+}
+.slide03{
+    background: url('http://img01.deviantart.net/6074/i/2012/316/a/8/origami_colours_by_nova_g-d5kqovp.jpg');
 }

@@ -1,4 +1,5 @@
 (function () {
+    hljs.initHighlightingOnLoad();
     function init() {
         var slides = document.getElementsByClassName('slide');
         if(slides.length > 0 ){

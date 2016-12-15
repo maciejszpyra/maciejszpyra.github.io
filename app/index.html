@@ -7,22 +7,81 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TimelineLite.min.js"></script>
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="slide-show-container">
     <!-- Slide 1 top content -->
     <div class="slide slide01 active">
-        <h1>First slide</h1>
+        <div class="content">
+            <h1>Front end developer?</h1>
+        </div>
     </div>
     <!-- Slide 2 top content -->
     <div class="slide slide02">
-        <h1>Second slide</h1>
+        <div class="content">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            <i class="fa fa-server" aria-hidden="true"></i>
+        </div>
     </div>
     <!-- Slide 3 top content -->
     <div class="slide slide03">
-        <h1>Third slide</h1>
+        <div class="content">
+            <img src="img/tech.png">
+        </div>
+    </div>
+    <div class="slide slide04">
+        <div class="content">
+            <pre>
+                <code class="html">
+                    &lt;!DOCTYPE html>
+                    &lt;html lang="en">
+                        &lt;head>
+                            &lt;meta charset="UTF-8">
+                            &lt;title>Title&lt;/title>
+                    &lt;/head>
+                        &lt;body>
+                            &lt;h1> Hello world! &lt;/h1>
+                        &lt;/body>
+                    &lt;/html>
+                </code>
+            </pre>
+        </div>
+    </div>
+    <div class="slide slide05">
+        <div class="content">
+            <pre>
+                <code class="css">
+                    h1 {
+                        font-size: 20px;
+                    }
+                    .red {
+                        background-color: red;
+                    }
+                </code>
+            </pre>
+        </div>
+    </div>
+    <div class="slide slide06">
+        <div class="content">
+            <pre>
+                <code class="javascript">
+                   function Object(a, b) {
+                      this.a = a;
+                      this.b = b;
+
+                      this.foo = function() {
+                        alert("Hello World!");
+                      };
+                    }
+                </code>
+            </pre>
+        </div>
     </div>
 </div>
 </body>

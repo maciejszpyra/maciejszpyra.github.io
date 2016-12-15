@@ -45,9 +45,10 @@ i {
 /*.slide02{*/
     /*background: url('http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');*/
 /*}*/
-.slide03 img {
+img {
     width: 60%;
 }
+
 pre {
     font-size: 1.6em;
 }

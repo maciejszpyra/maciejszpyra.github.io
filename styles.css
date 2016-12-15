@@ -6,6 +6,7 @@
     right: 0;
     background-color: white;
     font-family: 'Oswald', sans-serif;
+    color: #444;
 }
 
 .slide {
@@ -20,7 +21,7 @@
 }
 
 .content {
-    border: 6px black dashed;
+    border: 6px #444 dashed;
     height: 60%;
     width: 70%;
     display: flex;
@@ -31,20 +32,17 @@
 h1 {
     font-size: 4em;
 }
+
 i {
     font-size: 8em !important;
     padding: 1em;
 }
+
 .hljs {
     background-color: white !important;
     margin-right: 250px;
 }
-/*.slide01 {*/
-    /*background: url('https://mave.me/img/projects/full_placeholder.png');*/
-/*}*/
-/*.slide02{*/
-    /*background: url('http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg');*/
-/*}*/
+
 img {
     width: 60%;
 }
